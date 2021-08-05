@@ -11,8 +11,8 @@ Download and install the following software for your platform
   * st-link (optional)
   * The ST firmware - [Download from ST](http://www.st.com/web/en/catalog/tools/PF257904#)
   * Specify the folder of the firmware in the Makefile and run make.
-  * Upload the resuling binary to the board using openOCD or st-link.
+  * Upload the resulting binary to the board using openOCD or st-link.
 
 Usage
 -----
-After programming the MCU it should be detected as a midi device by any standard OS such as Windows, OS X and Linux. If you are using a stm32f4-discovery board the blue button should generate a test note which is sent to the host. 
+After programming the MCU it should be detected as a midi device by any standard OS such as Windows, OS X and Linux. If you are using a stm32f4-discovery board the blue button should generate a test note which is sent to the host.
